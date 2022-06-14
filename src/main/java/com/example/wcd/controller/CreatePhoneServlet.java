@@ -19,7 +19,7 @@ private PhoneModel phoneModel;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("").forward(req,resp);
+        req.getRequestDispatcher("/").forward(req,resp);
     }
 
     @Override

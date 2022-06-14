@@ -10,25 +10,25 @@
     <div class="w3-row w3-section">
         <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
         <div class="w3-rest">
-            <input class="w3-input w3-border" name="name" type="text" placeholder="Full Name">
+            <input class="w3-input w3-border" name="name" type="text" placeholder="Name">
         </div>
     </div>
     <div class="w3-row w3-section">
         <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
         <div class="w3-rest">
-            <input class="w3-input w3-border" name="brand" type="text" placeholder="Password">
+            <input class="w3-input w3-border" name="brand" type="text" placeholder="Brand" value="<%= phone.getName() %>" >>
         </div>
     </div>
     <div class="w3-row w3-section">
         <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
         <div class="w3-rest">
-            <input class="w3-input w3-border" name="price" type="number" placeholder="Confirm Password">
+            <input class="w3-input w3-border" name="price" type="number" placeholder="Price" value="<%= phone.getPrice() %>" >>
         </div>
     </div>
     <div class="w3-row w3-section">
         <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
         <div class="w3-rest">
-            <input class="w3-input w3-border" name="description" type="text" placeholder="Confirm Password">
+            <input class="w3-input w3-border" name="description" type="text" placeholder="Description">
         </div>
     </div>
     <p class="w3-center">
